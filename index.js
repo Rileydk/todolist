@@ -55,7 +55,7 @@ const view = {
 
   renderCheckedStyle() {
     doneList.lastElementChild.children[0].className = 'fas fa-check-square mr-2 align-self-baseline checked'
-    doneList.lastElementChild.children[1].className = 'finished'
+    doneList.lastElementChild.children[1].className = 'finished mr-2'
   },
 
   remindCompleteEditing() {
