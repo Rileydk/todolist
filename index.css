@@ -1,0 +1,76 @@
+body {
+  display: flex;
+  justify-content: center;
+  color: #3c3c3c;
+}
+
+.container {
+  border: 4px solid #17a2b8;
+  border-radius: 30px; /* 用百分比拉長時會變形？ */
+  width: 350px;
+  min-width: 350px;
+  margin: 0 auto;
+  box-shadow: 4px 4px 0 0 #17a2b8,
+              20px 20px 8px 0 #bbbbbb;
+}
+
+.reminder, .done {
+  width: 90%;
+}
+
+.form-control {
+  width: 213px;
+}
+
+.fa-trash {
+  margin: 0 5px;
+  color: #bbb;
+  cursor: pointer;
+}
+
+li>label[for='todo'] {
+  box-sizing: border-box;
+  width: 210px;
+  word-wrap: break-word;
+}
+
+.fa-trash:hover {
+  color: #d67c7c;
+}
+
+.unchecked {
+  cursor: pointer;
+}
+
+.checked {
+  cursor: pointer;
+  color: #d67c7c;
+}
+
+.unfinished {
+  border: 1px solid #fff;
+  padding-right: 2px;
+  padding-left: 2px;
+  cursor: text;
+}
+
+.finished {
+  text-decoration-line: line-through;
+  font-style: italic;
+  color: #bbb;
+}
+
+.turquoise {
+  color: #17a2b8;
+}
+
+.edit-sign {
+  border: 1px solid #bbb;
+  border-radius: 3px;
+  padding-right: 2px;
+  padding-left: 2px;
+}
+
+#new-value-input-column {
+  width: 210px;
+}
